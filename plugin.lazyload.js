@@ -77,9 +77,11 @@
 					if( intersected( win, client ) ) {
 						show( targets[i] );
 						delete targets[i];
-					} else {
+					} 
+		//原本期望当检查到元素不在可视区域内时，不再直接结束循环不再检查其他元素
+					/*else {
 						break;
-					}	
+					}	*/
 				}
 			}
 		};
