@@ -33,8 +33,8 @@
 		},
 		getClientRec = function( obj ) {
 			var l = 0, t = 0, w, h;
-			w = getWidth( obj );
-			h = getHeight( obj );
+			w = k.getWidth( obj );
+			h = k.getHeight( obj );
 			while( obj.offsetParent ) {
 				l += obj.offsetLeft;
 				t += obj.offsetTop;
